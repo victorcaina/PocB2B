@@ -1,0 +1,46 @@
+<div class="card mt-3">
+  <div class="card-header">
+    <div class="float-left">
+      <h4>Veiculos</h4>
+    </div>
+    <div class="float-right">
+      <button type="button" class="btn btn-primary" [routerLink]="['novo']">Novo Veiculo</button>
+      <button type="button" class="btn btn-secondary" (click)="onRefresh()">Atualizar</button>
+    </div>
+  </div>
+  <div class="card-body">
+    <table class="table table-hover" *ngIf="(veiculos$ | async) as veiculos; else loading">
+      <thead>
+        <tr>
+          <th>Veiculo</th>
+          <th>placa</th>
+          <th>plano</th>
+          <th>condutor</th>
+          <th>Status</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let veiculo of veiculos">
+            <td>{{ veiculo.nomeModeloVeiculo }}</td>
+            <td>{{ veiculo.placaVeiculo }}</td>
+            <td>{{ veiculo.plano }}</td>
+            <td>{{ veiculo.condutor.nomeCondutor }}</td>
+            <td>{{ veiculo.status }}</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <ng-template #loading>
+      <span>Carregando Veiculos...</span>
+    </ng-template>
+
+    <!--ng-template #loadingError>
+      <div *ngIf="error$ | async; else loading" >
+        Erro ao carregar faturas. Tente novamente mais tarde.
+      </div>
+      <ng-template #loading>
+          <span>Carregando faturas...</span>
+      </ng-template>
+    </ng-template -->
+  </div>
+</div>

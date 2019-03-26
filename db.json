@@ -1,28 +1,78 @@
 {
-    "faturas": [
+  "faturas": [
+    {
+      "id": 1,
+      "numeroFatura": 123,
+      "dataVencimento": "2019-01-20",
+      "dataEmissao": "2019-01-10",
+      "valor": "195.5",
+      "status": "Em Aberto"
+    },
+    {
+      "id": 2,
+      "numeroFatura": 122,
+      "dataVencimento": "2018-12-20",
+      "dataEmissao": "2018-12-10",
+      "valor": "195.5",
+      "status": "Em Aberto"
+    },
+    {
+      "id": 3,
+      "numeroFatura": 121,
+      "dataVencimento": "2018-11-22",
+      "dataEmissao": "2018-11-10",
+      "valor": "15.5",
+      "status": "Em Aberto"
+    }
+  ],
+  "veiculos": [
+    {
+      "id": 27361519,
+      "placaVeiculo": "FQF5284",
+      "nomeFabricante": "HYUNDAI",
+      "nomeModeloVeiculo": "HR LDELWBSC",
+      "anoModelo": "2013",
+      "corVeiculo": "BRANCO",
+      "documentoVeiculo": "14111641948",
+      "tipoCombustivelVeiculo": "ALCO/GASOL",
+      "status": "ativo",
+      "plano": "Adesão Zero",
+      "listaPontoAcessoAtivo": [
         {
-            "id": 1,
-            "numeroFatura": 123,
-            "dataVencimento": "2019-01-20",
-            "dataEmissao": "2019-01-10",
-            "valor": "195.5",
-            "status": "Em Aberto"
-        },
-        {
-            "id": 2,
-            "numeroFatura": 122,
-            "dataVencimento": "2018-12-20",
-            "dataEmissao": "2018-12-10",
-            "valor": "195.5",
-            "status": "Em Aberto"
-        },
-        {
-            "id": 3,
-            "numeroFatura": 121,
-            "dataVencimento": "2018-11-20",
-            "dataEmissao": "2018-11-10",
-            "valor": "195.5",
-            "status": "Em Aberto"
+          "numeroIdentificador": "0712938302",
+          "dataInicioAssociacaoVeiculo": "2017-08-07T12:55:23"
         }
-    ]
+      ],
+      "condutor": {
+        "nomeCondutor": "JOSE",
+        "emailCondutor": "jose@jose.com.br",
+        "cpfCondutor": "44868153862",
+        "celularCondutor": "11111111"
+      }
+    },
+    {
+      "placaVeiculo": "FQF5284",
+      "nomeFabricante": "HYUNDAI",
+      "nomeModeloVeiculo": "HR LDELWBSC",
+      "anoModelo": "2013",
+      "corVeiculo": "BRANCO",
+      "documentoVeiculo": "14111641948",
+      "tipoCombustivelVeiculo": "ALCO/GASOL",
+      "status": "ativo",
+      "plano": "Adesão Zero",
+      "listaPontoAcessoAtivo": [
+        {
+          "numeroIdentificador": "0712938302",
+          "dataInicioAssociacaoVeiculo": "2017-08-07T12:55:23"
+        }
+      ],
+      "condutor": {
+        "nomeCondutor": "JOSE",
+        "emailCondutor": "jose@jose.com.br",
+        "cpfCondutor": "44868153862",
+        "celularCondutor": "11111111"
+      },
+      "id": 27361520
+    }
+  ]
 }

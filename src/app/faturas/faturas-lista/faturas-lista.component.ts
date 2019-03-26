@@ -20,7 +20,7 @@ export class FaturasListaComponent implements OnInit {
 
   constructor(
     private service: FaturasService
-    ) { }
+  ) { }
 
   ngOnInit() {
     this.onRefresh();

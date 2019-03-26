@@ -16,7 +16,7 @@ export class FaturasService {
   list() {
     return this.http.get<Fatura[]>(this.API)
     .pipe(
-      delay(2000),
+      delay(1000),
       tap(console.log)
     );
   }
