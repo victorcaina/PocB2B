@@ -73,6 +73,140 @@
         "celularCondutor": "11111111"
       },
       "id": 27361520
+    },
+    {
+      "placaVeiculo": "FQF5284",
+      "nomeFabricante": "HYUNDAI",
+      "nomeModeloVeiculo": "HR LDELWBSC",
+      "anoModelo": "2013",
+      "corVeiculo": "BRANCO",
+      "documentoVeiculo": "14111641948",
+      "tipoCombustivelVeiculo": "ALCO/GASOL",
+      "status": "ativo",
+      "plano": "Adesão Zero",
+      "listaPontoAcessoAtivo": [
+        {
+          "numeroIdentificador": "0712938302",
+          "dataInicioAssociacaoVeiculo": "2017-08-07T12:55:23"
+        }
+      ],
+      "condutor": {
+        "nomeCondutor": "JOSE",
+        "emailCondutor": "jose@jose.com.br",
+        "cpfCondutor": "44868153862",
+        "celularCondutor": "11111111"
+      },
+      "id": 27361521
+    },
+    {
+      "placaVeiculo": "FQF5284",
+      "nomeFabricante": "HYUNDAI 1231321321321321",
+      "nomeModeloVeiculo": "HR LDELWBSC",
+      "anoModelo": "2013",
+      "corVeiculo": "BRANCO",
+      "documentoVeiculo": "14111641948",
+      "tipoCombustivelVeiculo": "ALCO/GASOL",
+      "status": "ativo",
+      "plano": "Adesão Zero",
+      "listaPontoAcessoAtivo": [
+        {
+          "numeroIdentificador": "0712938302",
+          "dataInicioAssociacaoVeiculo": "2017-08-07T12:55:23"
+        }
+      ],
+      "condutor": {
+        "nomeCondutor": "JOSE",
+        "emailCondutor": "jose@jose.com.br",
+        "cpfCondutor": "44868153862",
+        "celularCondutor": "11111111"
+      },
+      "id": 27361522
+    },
+    {
+      "placaVeiculo": "FQF5284",
+      "nomeFabricante": "HYUNDAI 1231321321321321",
+      "nomeModeloVeiculo": "HR LDELWBSC",
+      "anoModelo": "2013",
+      "corVeiculo": "BRANCO",
+      "documentoVeiculo": "14111641948",
+      "tipoCombustivelVeiculo": "ALCO/GASOL",
+      "status": "ativo",
+      "plano": "Adesão Zero",
+      "listaPontoAcessoAtivo": [
+        {
+          "numeroIdentificador": "0712938302",
+          "dataInicioAssociacaoVeiculo": "2017-08-07T12:55:23"
+        }
+      ],
+      "condutor": {
+        "nomeCondutor": "JOSE 2",
+        "emailCondutor": "jose@jose.com.br",
+        "cpfCondutor": "44868153862",
+        "celularCondutor": "11111111"
+      },
+      "id": 27361523
+    },
+    {
+      "placaVeiculo": "FQF5284",
+      "nomeFabricante": "HYUNDAI 1231321321321321",
+      "nomeModeloVeiculo": "HR LDELWBSC",
+      "anoModelo": "2013",
+      "corVeiculo": "BRANCO",
+      "documentoVeiculo": "14111641948",
+      "tipoCombustivelVeiculo": "ALCO/GASOL",
+      "status": "ativo",
+      "plano": "Adesão Zero",
+      "listaPontoAcessoAtivo": [
+        {
+          "numeroIdentificador": "0712938302",
+          "dataInicioAssociacaoVeiculo": "2017-08-07T12:55:23"
+        }
+      ],
+      "condutor": {
+        "nomeCondutor": "JOSE 5",
+        "emailCondutor": "jose@jose.com.br",
+        "cpfCondutor": "44868153862",
+        "celularCondutor": "11111111"
+      },
+      "id": 27361524
+    }
+  ],
+  "consultaItensFatura": [
+    {
+      "id": 1,
+      "dataHora": "20/01/2019",
+      "veiculo": {
+        "placaVeiculo": "FXN9353",
+        "marca": "FIAT",
+        "modelo": "STRADA"
+      },
+      "descricaoItemFatura": "PASSAGEM",
+      "nomePontouso": "SP075, KM60+800, INDAIATUBA",
+      "valor": "12.8"
+    },
+    {
+      "id": 2,
+      "dataHora": "21/01/2019",
+      "veiculo": {
+        "placaVeiculo": "FXN9353",
+        "marca": "FIAT",
+        "modelo": "STRADA"
+      },
+      "descricaoItemFatura": "PASSAGEM",
+      "nomePontouso": "SP075, KM60+800, INDAIATUBA",
+      "valor": "12.8"
+    },
+    {
+      "id": 3,
+      "dataHora": "22/01/2019",
+      "veiculo": {
+        "placaVeiculo": "FXN9353",
+        "marca": "FIAT",
+        "modelo": "STRADA"
+      },
+      "descricaoItemFatura": "PASSAGEM",
+      "nomePontouso": "SP075, KM60+800, INDAIATUBA",
+      "valor": "12.8"
     }
   ]
 }

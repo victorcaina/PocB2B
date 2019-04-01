@@ -9,13 +9,15 @@ import { Error404Component } from './error404/error404.component';
 import { HomeComponent } from './home/home.component';
 import { LoginComponent } from './login/login.component';
 import { SharedModule } from './shared/shared.module';
+import { RelatorioUsoComponent } from './relatorio-uso/relatorio-uso.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     Error404Component,
     HomeComponent,
-    LoginComponent
+    LoginComponent,
+    RelatorioUsoComponent
   ],
   imports: [
     BrowserModule,
